@@ -1,0 +1,47 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+s                                                                                 0x02C6      15
+rfid                                                                              0x02D5      13
+rfid_index                                                                        0x02E2       1
+rfid_complete                                                                     0x02E3       1
+_base_y (alcd.lib)                                                                0x02E4       4
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+temperature                                                                       R4,R5        2
+_lcd_x                                                                            R7           1
+_lcd_y                                                                            R6           1
+_lcd_maxx                                                                         R9           1
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+read_adc                                                                          0x000FD     15
+usart_init                                                                        0x0010C     26
+usart_receive                                                                     0x00126      4
+process_rfid                                                                      0x0012A     31
+reset_rfid                                                                        0x00149      6
+ext_int0_isr                                                                      0x0014F    133
+main                                                                              0x001D4    102
+_lcd_write_nibble_G100                                                            0x0023A     21
+_lcd_write_data                                                                   0x0024F     13
+lcd_gotoxy                                                                        0x0025C     18
+lcd_clear                                                                         0x0026E     10
+lcd_putchar                                                                       0x00278     19
+lcd_puts                                                                          0x0028B     15
+lcd_init                                                                          0x0029A     43
+strlen                                                                            0x002C5     12
+strlenf                                                                           0x002D1     13
+strncmp                                                                           0x002DE     25
+putchar                                                                           0x002F7      7
+put_usart_G102                                                                    0x002FE     10
+put_buff_G102                                                                     0x00308     43
+_print_G102                                                                       0x00333    294
+sprintf                                                                           0x00459     43
+printf                                                                            0x00484     29
