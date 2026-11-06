@@ -1,0 +1,20 @@
+# Editor & Temporary Backups
+*~
+*.bak
+*.tmp
+*.swp
+
+# CodeVisionAVR Temporary & Build Artifacts
+*.cbi
+*.cwp
+*.fct
+*.sym*
+*.str*
+*.obj
+*.lst
+*.map
+
+# Proteus Simulation Backups
+*.pdsbak
+*.workspace*
+Last Loaded *
